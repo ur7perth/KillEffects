@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "killeffect",
+  "version": "${version}",
+  "name": "Kill Effect",
+  "description": "You can choose any KillEffect you want just click the key the one you chose from controls",
+  "authors": ["abo9kr"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.killeffect.KillEffectClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
